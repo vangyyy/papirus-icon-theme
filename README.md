@@ -107,22 +107,27 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-
 
 ### Third-party packages
 
-Packages in this section are not part of the official repositories. If you have a problem or a question, please contact the package maintainer.
+Packages listed in this section are third-party packages. If you have a problem or a question, please contact the package maintainer.
 
-| **Distro**    | **Maintainer**     | **Package**                              |
-| :------------ | :----------------- | :--------------------------------------- |
-| ALT Linux     | Andrey Cherepanov  | `apt-get install papirus-icon-theme` <sup>[[link](https://packages.altlinux.org/en/Sisyphus/srpms/papirus-icon-theme)]</sup> |
-| Arch Linux    | Felix Yan          | `sudo pacman -S papirus-icon-theme` <sup>[[link](https://www.archlinux.org/packages/community/any/papirus-icon-theme/)]</sup> |
+Please note that some packages in the list may be outdated, open [Repology](https://repology.org/project/papirus-icon-theme/versions) to find out package versions.
+
+| **Distro**    | **Maintainer**       | **Package**                              |
+| :------------ | :------------------- | :--------------------------------------- |
+| ALT Linux     | Andrey Cherepanov    | `apt-get install papirus-icon-theme` <sup>[[link](https://packages.altlinux.org/en/Sisyphus/srpms/papirus-icon-theme)]</sup> |
+| Arch Linux    | Felix Yan            | `sudo pacman -S papirus-icon-theme` <sup>community</sup> |
 | Arch Linux    | Mohammadreza Abdollahzadeh | [papirus-icon-theme-git](https://aur.archlinux.org/packages/papirus-icon-theme-git/) <sup>AUR</sup> |
-| Debian 10+    | Yangfl             | `sudo apt install papirus-icon-theme` <sup>[[sid](https://packages.debian.org/sid/papirus-icon-theme)]</sup> |
-| Fedora        | Dirk Davidis       | [papirus-icon-theme](https://copr.fedorainfracloud.org/coprs/dirkdavidis/papirus-icon-theme/) <sup>copr</sup> |
-| NetBSD        | nia                | [papirus-icon-theme](http://pkgsrc.se/graphics/papirus-icon-theme) <sup>pkgsrc</sup> |
-| openSUSE      | Konstantin Voinov  | [papirus-icon-theme](https://software.opensuse.org/download.html?project=home:kill_it&package=papirus-icon-theme) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/papirus-icon-theme)]</sub> |
-| openSUSE      | Matthias Eliasson  | [papirus-icon-theme](https://software.opensuse.org/package/papirus-icon-theme) <sup>official</sup> |
-| ROSA Linux    | Vladimir Penchikov | `sudo urpmi papirus-icon-theme` |
-| Solus         | Joshua Strobl      | `sudo eopkg it papirus-icon-theme` |
-| Ubuntu 18.04+ | Yangfl             | `sudo apt install papirus-icon-theme` |
-| Void Linux    | Giuseppe Fierro    | `sudo xbps-install papirus-icon-theme` |
+| Debian 9+     | Yangfl               | `sudo apt install papirus-icon-theme` |
+| Fedora 27+    | Robert-André Mauchin | `sudo dnf install papirus-icon-theme` |
+| Fedora        | Dirk Davidis         | [papirus-icon-theme](https://copr.fedorainfracloud.org/coprs/dirkdavidis/papirus-icon-theme/) <sup>copr</sup> |
+| FreeBSD       | Hiroki Tagato        | [papirus-icon-theme](https://www.freshports.org/x11-themes/papirus-icon-theme) <sup>freshports</sup> |
+| NetBSD        | Nia Alarie           | [papirus-icon-theme](http://pkgsrc.se/graphics/papirus-icon-theme) <sup>pkgsrc</sup> |
+| NixOS         | Nixpkgs Contributors | `nix-env -iA nixos.papirus-icon-theme` |
+| openSUSE      | Konstantin Voinov    | [papirus-icon-theme](https://software.opensuse.org/download.html?project=home:kill_it&package=papirus-icon-theme) <sup>OBS [[link](https://build.opensuse.org/package/show/home:kill_it/papirus-icon-theme)]</sub> |
+| openSUSE      | Matthias Eliasson    | [papirus-icon-theme](https://software.opensuse.org/package/papirus-icon-theme) <sup>official</sup> |
+| ROSA Linux    | Vladimir Penchikov   | `sudo urpmi papirus-icon-theme` |
+| Solus         | Joshua Strobl        | `sudo eopkg it papirus-icon-theme` |
+| Ubuntu 18.04+ | Yangfl               | `sudo apt install papirus-icon-theme` |
+| Void Linux    | Giuseppe Fierro      | `sudo xbps-install -S papirus-icon-theme` |
 
 **NOTE:** If you are a maintainer and want to be in the list, please create an issue or make a pull request.
 
@@ -195,6 +200,7 @@ Also, you can use our [papirus-folders](https://github.com/PapirusDevelopmentTea
 - [Papirus themes for FileZilla](https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes)
 - [Papirus theme for SMPlayer](https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme)
 - [Papirus themes for Claws Mail](https://github.com/PapirusDevelopmentTeam/papirus-claws-mail-theme)
+- [Papirus themes for Thunderbird](https://github.com/PapirusDevelopmentTeam/thunderbird-theme-papirus)
 - [Papirus theme for aMule](https://github.com/PapirusDevelopmentTeam/papirus-amule-theme)
 
 ## Recommendations
