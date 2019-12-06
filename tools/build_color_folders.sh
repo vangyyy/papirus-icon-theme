@@ -65,16 +65,17 @@ COLORS=(
 	[violet]="    #7e57c2 #5d399b #2c1e44 #e4e4e4"
 	[white]="     #e4e4e4 #cccccc #4f4f4f #ffffff"
 	[yellow]="    #e2b322 #b58f1b #4f3e0c #e4e4e4"
+	[nordic]="    #82abaa #6c9b9a #4e6766 #e4e4e4"
 	[custom]="    #value_light #value_dark #323232 #e4e4e4"
 )
 
 
 headline() {
-	printf "%b => %b%s\n" "\e[1;32m" "\e[0m" "$*" >&2
+	printf "%b => %b%s\n" "\e[1;32m" "\e[0m" "$*"
 }
 
 msg() {
-	printf "%b [+] %b%s\n" "\e[1;33m" "\e[0m" "$*" >&2
+	printf "%b [+] %b%s\n" "\e[1;33m" "\e[0m" "$*"
 }
 
 recolor() {
