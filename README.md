@@ -3,10 +3,10 @@
 </p>
 
 <p align="center">
-  <img alt="apps" src="https://img.shields.io/badge/apps_icons-5000%2B-5294e2.svg?style=flat-square"/>
-  <img alt="actions" src="https://img.shields.io/badge/actions_icons-2000%2B-5294e2.svg?style=flat-square"/>
-  <img alt="panel" src="https://img.shields.io/badge/panel_icons-1900%2B-5294e2.svg?style=flat-square"/>
-  <img alt="places" src="https://img.shields.io/badge/places_icons-1250%2B-5294e2.svg?style=flat-square"/>
+  <img alt="apps" src="https://img.shields.io/badge/apps_icons-5350%2B-5294e2.svg?style=flat-square"/>
+  <img alt="actions" src="https://img.shields.io/badge/actions_icons-2050%2B-5294e2.svg?style=flat-square"/>
+  <img alt="panel" src="https://img.shields.io/badge/panel_icons-1930%2B-5294e2.svg?style=flat-square"/>
+  <img alt="places" src="https://img.shields.io/badge/places_icons-1450%2B-5294e2.svg?style=flat-square"/>
 </p>
 
 Papirus is a free and open source SVG icon theme for Linux, based on [Paper Icon Set](https://github.com/snwh/paper-icon-theme) with a lot of new icons and a few extras, like [Hardcode-Tray support](#hardcoded-tray-icons), [KDE colorscheme support](#kde-colorscheme), [Folder Color support](#folders-color), and [others](#extras).
@@ -159,7 +159,7 @@ sudo -E hardcode-tray --conversion-tool RSVGConvert --size 22 --theme Papirus
 
 ![hardcode-tray](https://i.imgur.com/6hFm6aj.png)
 
-**NOTE**: Some Electon-based applications have blurred tray icon on KDE (see [bug report](https://bugs.kde.org/show_bug.cgi?id=366062)). To solve this issue pass the following environment variable to the app: `XDG_CURRENT_DESKTOP=Unity wire-desktop`
+**NOTE**: Some Electron-based applications have blurred tray icon on KDE (see [bug report](https://bugs.kde.org/show_bug.cgi?id=366062)). To solve this issue pass the following environment variable to the app: `XDG_CURRENT_DESKTOP=Unity wire-desktop`
 
 ## KDE colorscheme
 
