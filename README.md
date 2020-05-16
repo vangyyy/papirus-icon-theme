@@ -156,6 +156,7 @@ sudo -E hardcode-tray --conversion-tool RSVGConvert --size 22 --theme Papirus
 - XFCE 22px ([see](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#manual-fixes) for more info)
 - Pantheon 24px
 - Cinnamon 16px
+- LXQt 16px
 
 
 ![hardcode-tray](https://i.imgur.com/6hFm6aj.png)
@@ -179,7 +180,7 @@ Papirus has [Folder Color](http://foldercolor.tuxfamily.org/) v0.0.80+ support t
 
 Available colors:
 
-![Folder Color Preview](https://i.imgur.com/jP3mRci.png)
+![Folder Color Preview](https://i.imgur.com/Xx9JB8e.png)
 
 For KDE, colors of individual folders can be changed using [dolphin-folder-color](https://github.com/audoban/dolphin-folder-color).
 
@@ -197,11 +198,9 @@ Also, you can use our [papirus-folders](https://github.com/PapirusDevelopmentTea
 ## Recommendations
 
 - Recommended use Papirus icons alongside one of the following GTK themes:
-  - [Adapta theme](https://github.com/adapta-project/adapta-gtk-theme)
-  - [Arc theme](https://github.com/NicoHood/arc-theme)
+  - [Arc theme](https://github.com/jnsh/arc-theme)
   - [Materia theme](https://github.com/nana-4/materia-theme)
 - For KDE, our recommendation is:
-  - [Adapta KDE](https://github.com/PapirusDevelopmentTeam/adapta-kde)
   - [Arc KDE](https://github.com/PapirusDevelopmentTeam/arc-kde)
   - [Materia KDE](https://github.com/PapirusDevelopmentTeam/materia-kde)
 
@@ -221,7 +220,7 @@ Restart system.
 <details>
 <summary>For Cinnamon users</summary>
 
-For Cinnamon users who want to use Papirus icon theme with [Arc theme](https://github.com/NicoHood/arc-theme) we recommend fix color icons on panel:
+For Cinnamon users who want to use Papirus icon theme with [Arc theme](https://github.com/jnsh/arc-theme) we recommend fix color icons on panel:
 
 ```
 sudo sed -i.orig 's/white/#d3dae3/g' /usr/share/themes/Arc-Dark/cinnamon/cinnamon.css
@@ -237,7 +236,7 @@ To deal with blurred panel icons, increase the panel size up to 30px in `Systems
 
 For GNOME users we recommend install the following extensions:
 
-- [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support/) **¹** — This extension integrates AppIndicators. The patched version of [sni-qt](https://github.com/bilelmoussaoui/sni-qt) for [Hardcode-Tray](https://github.com/bilelmoussaoui/Hardcode-Tray) doesn't work without it.
+- [(K)StatusNotifierItem/AppIndicator Support](https://extensions.gnome.org/extension/615/appindicator-support/) **¹** — This extension integrates AppIndicators.
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) **¹**
 - [No Symbolic Icons](https://extensions.gnome.org/extension/1304/no-symbolic-icons/)
 - [Status Area Horizontal Spacing](https://extensions.gnome.org/extension/355/status-area-horizontal-spacing/)
@@ -277,11 +276,31 @@ gsettings set org.pantheon.desktop.wingpanel use-transparency false
 
 </details>
 
+<details>
+<summary>For LXQt users</summary>
+
+Here are a few recommendations for LXQt users.
+
+#### PCManFM-Qt File Manager
+
+Go to `Edit` → `Preferences`. Click on `Display` section. On `Icons` category change size to `16x16` for `Size of side pane icons`.
+
+![pcmanfmqt](https://i.imgur.com/2x3U6xD.png)
+
+#### Monochrome Panel Plugins
+
+`Configure Panel` and set `16px` for `Icon size`.
+
+![lxqt-panel](https://i.imgur.com/iwuhBiG.png)
+
+</details>
+
 ## Icon request
 
 - Application name
 - Icon name (see desktop-file option **Icon** on `/usr/share/applications`)
 - Original icon image
+- Use tray? Tray icon name. Hardcoded?
 - Small description and/or a link to the official webpage
 
 **NOTE**: We do NOT support Windows/Wine/Crossover or other NOT native Linux-apps. This also applies to discontinued projects!!
